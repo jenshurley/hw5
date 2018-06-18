@@ -87,7 +87,7 @@ tumorfig.suptitle("Tumor Volume Data", fontsize=30);
 ```
 
 
-![png](output_8_0.png)
+![png](PYDRUG_FINAL/output_8_0.png)
 
 
 ## METASTASES
@@ -122,7 +122,7 @@ metfig.suptitle("Metastases Data", fontsize = 20);
 ```
 
 
-![png](output_10_0.png)
+![png](PYDRUG_FINAL/output_10_0.png)
 
 
 ## SURVIVAL RATE
@@ -328,7 +328,7 @@ plt.scatter(plac.dur, plac.index, marker='x',  alpha = 0.5);
 ```
 
 
-![png](output_17_0.png)
+![png](PYDRUG_FINAL/output_17_0.png)
 
 
 
@@ -338,7 +338,7 @@ plt.scatter(plac.dur, plac.index, marker='x', alpha = 0.3);
 ```
 
 
-![png](output_18_0.png)
+![png](PYDRUG_FINAL/output_18_0.png)
 
 
 
@@ -348,7 +348,7 @@ plt.scatter(plac.dur, plac.index, marker='x', alpha = 0.3);
 ```
 
 
-![png](output_19_0.png)
+![png](PYDRUG_FINAL/output_19_0.png)
 
 
 
@@ -394,7 +394,7 @@ sr.groupby('dur')['mouse_id'].count().plot(kind='bar', title='Count of Survivors
 ```
 
 
-![png](output_21_0.png)
+![png](PYDRUG_FINAL/output_21_0.png)
 
 
 
@@ -550,7 +550,7 @@ plt.show()
 ```
 
 
-![png](output_26_0.png)
+![png](PYDRUG_FINAL/output_26_0.png)
 
 
 ## Total % Tumor Volume Change
@@ -763,7 +763,7 @@ plt.show()
 ```
 
 
-![png](output_37_0.png)
+![png](PYDRUG_FINAL/output_37_0.png)
 
 
 ## SURVIVAL FUNCTION NOT MAKING SENSE
@@ -797,7 +797,7 @@ plt.title('Survival function of Subjects');
 ```
 
 
-![png](output_41_0.png)
+![png](PYDRUG_FINAL/output_41_0.png)
 
 
 
@@ -813,5 +813,5 @@ kmf.plot()
 
 
 
-![png](output_42_1.png)
+![png](PYDRUG_FINAL/output_42_1.png)
 
